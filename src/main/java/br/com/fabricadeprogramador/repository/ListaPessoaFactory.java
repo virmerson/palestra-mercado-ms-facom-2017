@@ -22,7 +22,7 @@ public class ListaPessoaFactory {
     public List<Pessoa> getListaPessoas() throws IOException, BiffException {
 
         //Ler o Arquivo
-        Workbook workbook = Workbook.getWorkbook(new File("/Users/mac/Desktop/facom/sorteio.xls"));
+        Workbook workbook = Workbook.getWorkbook(new File("/Users/mac/Desktop/ucdb/sorteio-final.xls"));
 
         //ler a planilha
         Sheet sheet = workbook.getSheet(0);
